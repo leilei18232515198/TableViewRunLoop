@@ -16,6 +16,9 @@
 		113AB6012141176B0052A424 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 113AB6002141176B0052A424 /* main.m */; };
 		113AB60B2141176B0052A424 /* TableView_RunLoopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 113AB60A2141176B0052A424 /* TableView_RunLoopTests.m */; };
 		113AB6162141176B0052A424 /* TableView_RunLoopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 113AB6152141176B0052A424 /* TableView_RunLoopUITests.m */; };
+		113AB67221413FBE0052A424 /* timg-7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 113AB66F21413FBD0052A424 /* timg-7.jpeg */; };
+		113AB67321413FBE0052A424 /* 2012081210372.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 113AB67021413FBE0052A424 /* 2012081210372.jpg */; };
+		113AB67421413FBE0052A424 /* timg-6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 113AB67121413FBE0052A424 /* timg-6.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		113AB6112141176B0052A424 /* TableView+RunLoopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableView+RunLoopUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		113AB6152141176B0052A424 /* TableView_RunLoopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableView_RunLoopUITests.m; sourceTree = "<group>"; };
 		113AB6172141176B0052A424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		113AB66F21413FBD0052A424 /* timg-7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-7.jpeg"; sourceTree = "<group>"; };
+		113AB67021413FBE0052A424 /* 2012081210372.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2012081210372.jpg; sourceTree = "<group>"; };
+		113AB67121413FBE0052A424 /* timg-6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-6.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,9 @@
 				113AB5EF214117690052A424 /* AppDelegate.m */,
 				113AB5F1214117690052A424 /* ViewController.h */,
 				113AB5F2214117690052A424 /* ViewController.m */,
+				113AB67021413FBE0052A424 /* 2012081210372.jpg */,
+				113AB67121413FBE0052A424 /* timg-6.jpeg */,
+				113AB66F21413FBD0052A424 /* timg-7.jpeg */,
 				113AB5F4214117690052A424 /* Main.storyboard */,
 				113AB5FA2141176B0052A424 /* Assets.xcassets */,
 				113AB5FC2141176B0052A424 /* LaunchScreen.storyboard */,
@@ -238,9 +247,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				113AB67221413FBE0052A424 /* timg-7.jpeg in Resources */,
 				113AB5FE2141176B0052A424 /* LaunchScreen.storyboard in Resources */,
+				113AB67321413FBE0052A424 /* 2012081210372.jpg in Resources */,
 				113AB5FB2141176B0052A424 /* Assets.xcassets in Resources */,
 				113AB5F6214117690052A424 /* Main.storyboard in Resources */,
+				113AB67421413FBE0052A424 /* timg-6.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

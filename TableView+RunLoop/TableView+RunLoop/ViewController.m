@@ -31,7 +31,7 @@ typedef void(^runloopTask)();
     [self addRunloopObserver];
     ImageWidth = ImageHeight=  [UIScreen mainScreen].bounds.size.width/3;
     //给runloop一个事件源，让Runloop不断的运行执行代码块任务。
-    [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(runloopalive) userInfo:nil repeats:YES];
+    [NSTimer scheduledTimerWithTimeInterval:0.01 target:self selector:@selector(runloopalive) userInfo:nil repeats:YES];
 }
 //如果方法里什么都不干，APP性能影响并不大。但cpu增加负担，
 -(void)runloopalive{
@@ -162,7 +162,7 @@ typedef void(^runloopTask)();
     static CFRunLoopObserverRef  obserberRef;
     obserberRef =CFRunLoopObserverCreate(NULL, kCFRunLoopBeforeWaiting, YES, 0,&callback, &context);
     //给当前runloop添加观察者
-    CFRunLoopAddObserver(currentRunloop, obserberRef, kCFRunLoopDefaultMode);
+    CFRunLoopAddObserver(currentRunloop, obserberRef, kCFRunLoopCommonModes);
     //释放观察者
     CFRelease(obserberRef);
 }
